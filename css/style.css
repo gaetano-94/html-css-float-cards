@@ -64,8 +64,23 @@ h1 {
   float: left;
   width: calc(100% / - 1000px);
   color: #fffffe;
+  font-size: 10px;
+  padding: 10px 10px;
 }
 
 .immagini img {
   width: 100%;
 }
+
+span {
+  display: inline-block;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+a {
+  display: block;
+  font-size: 13px;
+  padding-top: 5px;
+}
+/* immagini più info */
