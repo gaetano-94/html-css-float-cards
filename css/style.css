@@ -30,6 +30,7 @@ h1 {
 
 .testo-header {
   margin-top: 30px;
+  font-size: 15px;
 }
 /* Header */
 
@@ -37,4 +38,15 @@ h1 {
 .contenitore {
   max-width: 1000px;
   margin: 40px auto;
+}
+
+/* immagini più info */
+.struttura {
+  height: 100px;
+  width: calc(100% / 3 - 20px);
+  background-color: lightgray;
+  border: 1px solid #0f0e17;
+  float: left;
+  padding: 20px;
+  margin: 10px;
 }
