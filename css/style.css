@@ -40,13 +40,32 @@ h1 {
   margin: 40px auto;
 }
 
+.clearfix {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 /* immagini più info */
 .struttura {
   height: 100px;
   width: calc(100% / 3 - 20px);
-  background-color: lightgray;
-  border: 1px solid #0f0e17;
+  background-color: #0f0e17;
   float: left;
-  padding: 20px;
   margin: 10px;
+}
+
+.immagini {
+  float: left;
+  width: 100px;
+}
+
+.info {
+  float: left;
+  width: calc(100% / - 1000px);
+  color: #fffffe;
+}
+
+.immagini img {
+  width: 100%;
 }
