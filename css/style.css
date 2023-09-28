@@ -4,14 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Reset */
 
-/* Font Style H*/
-h1,
-h2,
-h3 {
+body {
   font-family: 'Fredoka', sans-serif;
 }
-/* Font Style H */
 
 /* Header */
 .contenitore-titolo {
@@ -21,11 +18,23 @@ h3 {
   margin-top: 20px;
 }
 
-.titolo {
+h1,
+h2,
+h3 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
   color: #e53170;
 }
 
 .testo-header {
   margin-top: 30px;
-  font-family: 'Fredoka', sans-serif;
+}
+/* Header */
+
+/* Main */
+.contenitore {
+  max-width: 1000px;
+  margin: 40px auto;
 }
